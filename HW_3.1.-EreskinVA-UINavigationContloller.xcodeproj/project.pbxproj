@@ -37,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0D210D222E6EAB00A06469 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FB9C1222E504C00B3D190 /* LoginVC.swift */,
+				2B1FB9C3222E591C00B3D190 /* DetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		2B1FB9A2222E4F7F00B3D190 = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				2B1FB9C0222E501000B3D190 /* Supporting Files */,
-				2B1FB9C1222E504C00B3D190 /* LoginVC.swift */,
-				2B1FB9C3222E591C00B3D190 /* DetailVC.swift */,
+				2B0D210D222E6EAB00A06469 /* Controllers */,
 				2B1FB9BA222E4F8000B3D190 /* Info.plist */,
 			);
 			path = "HW_3.1.-EreskinVA-UINavigationContloller";
