@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		2B1FB9AF222E4F7F00B3D190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */; };
-		2B1FB9B1222E4F7F00B3D190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */; };
 		2B1FB9B4222E4F7F00B3D190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B2222E4F7F00B3D190 /* Main.storyboard */; };
 		2B1FB9B6222E4F8000B3D190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */; };
 		2B1FB9B9222E4F8000B3D190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */; };
+		2B1FB9C2222E504C00B3D190 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FB9C1222E504C00B3D190 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B1FB9AB222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW_3.1.-EreskinVA-UINavigationContloller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B1FB9B3222E4F7F00B3D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1FB9B8222E4F8000B3D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1FB9BA222E4F8000B3D190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1FB9C1222E504C00B3D190 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		2B1FB9AD222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller */ = {
 			isa = PBXGroup;
 			children = (
-				2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */,
-				2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */,
+				2B1FB9C0222E501000B3D190 /* SupportedFiles */,
 				2B1FB9B2222E4F7F00B3D190 /* Main.storyboard */,
-				2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */,
-				2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */,
+				2B1FB9C1222E504C00B3D190 /* LoginVC.swift */,
 				2B1FB9BA222E4F8000B3D190 /* Info.plist */,
 			);
 			path = "HW_3.1.-EreskinVA-UINavigationContloller";
+			sourceTree = "<group>";
+		};
+		2B1FB9C0222E501000B3D190 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */,
+				2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */,
+				2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */,
+			);
+			path = SupportedFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1FB9B1222E4F7F00B3D190 /* ViewController.swift in Sources */,
+				2B1FB9C2222E504C00B3D190 /* LoginVC.swift in Sources */,
 				2B1FB9AF222E4F7F00B3D190 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
