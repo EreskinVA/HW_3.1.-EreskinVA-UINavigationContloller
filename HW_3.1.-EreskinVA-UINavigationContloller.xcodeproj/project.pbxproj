@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1FB9AF222E4F7F00B3D190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */; };
+		2B1FB9B1222E4F7F00B3D190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */; };
+		2B1FB9B4222E4F7F00B3D190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B2222E4F7F00B3D190 /* Main.storyboard */; };
+		2B1FB9B6222E4F8000B3D190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */; };
+		2B1FB9B9222E4F8000B3D190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B1FB9AB222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW_3.1.-EreskinVA-UINavigationContloller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B1FB9B3222E4F7F00B3D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B1FB9B8222E4F8000B3D190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B1FB9BA222E4F8000B3D190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B1FB9A8222E4F7F00B3D190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B1FB9A2222E4F7F00B3D190 = {
+			isa = PBXGroup;
+			children = (
+				2B1FB9AD222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller */,
+				2B1FB9AC222E4F7F00B3D190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B1FB9AC222E4F7F00B3D190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FB9AB222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B1FB9AD222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FB9AE222E4F7F00B3D190 /* AppDelegate.swift */,
+				2B1FB9B0222E4F7F00B3D190 /* ViewController.swift */,
+				2B1FB9B2222E4F7F00B3D190 /* Main.storyboard */,
+				2B1FB9B5222E4F8000B3D190 /* Assets.xcassets */,
+				2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */,
+				2B1FB9BA222E4F8000B3D190 /* Info.plist */,
+			);
+			path = "HW_3.1.-EreskinVA-UINavigationContloller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B1FB9AA222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1FB9BD222E4F8000B3D190 /* Build configuration list for PBXNativeTarget "HW_3.1.-EreskinVA-UINavigationContloller" */;
+			buildPhases = (
+				2B1FB9A7222E4F7F00B3D190 /* Sources */,
+				2B1FB9A8222E4F7F00B3D190 /* Frameworks */,
+				2B1FB9A9222E4F7F00B3D190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW_3.1.-EreskinVA-UINavigationContloller";
+			productName = "HW_3.1.-EreskinVA-UINavigationContloller";
+			productReference = 2B1FB9AB222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B1FB9A3222E4F7F00B3D190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vladimir Ereskin";
+				TargetAttributes = {
+					2B1FB9AA222E4F7F00B3D190 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B1FB9A6222E4F7F00B3D190 /* Build configuration list for PBXProject "HW_3.1.-EreskinVA-UINavigationContloller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B1FB9A2222E4F7F00B3D190;
+			productRefGroup = 2B1FB9AC222E4F7F00B3D190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B1FB9AA222E4F7F00B3D190 /* HW_3.1.-EreskinVA-UINavigationContloller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B1FB9A9222E4F7F00B3D190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FB9B9222E4F8000B3D190 /* LaunchScreen.storyboard in Resources */,
+				2B1FB9B6222E4F8000B3D190 /* Assets.xcassets in Resources */,
+				2B1FB9B4222E4F7F00B3D190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B1FB9A7222E4F7F00B3D190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1FB9B1222E4F7F00B3D190 /* ViewController.swift in Sources */,
+				2B1FB9AF222E4F7F00B3D190 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B1FB9B2222E4F7F00B3D190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FB9B3222E4F7F00B3D190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B1FB9B7222E4F8000B3D190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B1FB9B8222E4F8000B3D190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B1FB9BB222E4F8000B3D190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B1FB9BC222E4F8000B3D190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B1FB9BE222E4F8000B3D190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE5WRLEXRE;
+				INFOPLIST_FILE = "HW_3.1.-EreskinVA-UINavigationContloller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ereskinva.HW-3-1--EreskinVA-UINavigationContloller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B1FB9BF222E4F8000B3D190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FE5WRLEXRE;
+				INFOPLIST_FILE = "HW_3.1.-EreskinVA-UINavigationContloller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ereskinva.HW-3-1--EreskinVA-UINavigationContloller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B1FB9A6222E4F7F00B3D190 /* Build configuration list for PBXProject "HW_3.1.-EreskinVA-UINavigationContloller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FB9BB222E4F8000B3D190 /* Debug */,
+				2B1FB9BC222E4F8000B3D190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1FB9BD222E4F8000B3D190 /* Build configuration list for PBXNativeTarget "HW_3.1.-EreskinVA-UINavigationContloller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B1FB9BE222E4F8000B3D190 /* Debug */,
+				2B1FB9BF222E4F8000B3D190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B1FB9A3222E4F7F00B3D190 /* Project object */;
+}
