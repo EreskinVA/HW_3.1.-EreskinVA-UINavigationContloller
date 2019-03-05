@@ -9,8 +9,23 @@
 import UIKit
 
 class DetailVC: UIViewController {
-
- // MARK: - ... @IBOutlet
     
+    var information: String?
 
+    // MARK: - ... @IBOutlet
+    
+    @IBOutlet var informationLabel: UILabel!
+    
+    // MARK: - ... UIViewController Methods
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.navigationBar.barTintColor = self.view.backgroundColor
+        
+        guard let information = information else { return }
+
+        informationLabel.text = information
+    }
+    
 }

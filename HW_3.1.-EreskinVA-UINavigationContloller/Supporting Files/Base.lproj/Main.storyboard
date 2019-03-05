@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="3Yw-SC-Kol" customClass="LoginVC" customModule="HW_3_1__EreskinVA_UINavigationContloller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6dd-xD-8ih">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ddz-b6-ilW">
-                                <rect key="frame" x="71" y="277.5" width="233" height="176"/>
+                                <rect key="frame" x="71" y="213.5" width="233" height="176"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="1iy-A1-ub5">
                                         <rect key="frame" x="0.0" y="0.0" width="233" height="83"/>
@@ -79,37 +79,56 @@
                     </view>
                     <navigationItem key="navigationItem" id="GCp-Nf-w3a"/>
                     <connections>
+                        <outlet property="passwordTF" destination="JhW-fY-KR1" id="BC4-NR-eif"/>
                         <outlet property="userNameTF" destination="qk5-8I-VXk" id="ExC-Ed-UVY"/>
-                        <segue destination="mkJ-Xz-qF9" kind="show" id="zfV-JL-Der"/>
+                        <segue destination="mkJ-Xz-qF9" kind="show" identifier="detailSegue" id="zfV-JL-Der"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAZ-d7-EfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="901.60000000000002" y="17.541229385307346"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailVC-->
         <scene sceneID="dai-Ak-8i7">
             <objects>
-                <viewController id="mkJ-Xz-qF9" sceneMemberID="viewController">
+                <viewController id="mkJ-Xz-qF9" customClass="DetailVC" customModule="HW_3_1__EreskinVA_UINavigationContloller" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tgs-0c-pqh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qh6-um-3bX">
+                                <rect key="frame" x="16" y="259" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.92798680067062378" green="0.21789446473121643" blue="0.1999838650226593" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fII-3A-Vae" firstAttribute="trailing" secondItem="qh6-um-3bX" secondAttribute="trailing" constant="16" id="Ie6-AC-eZU"/>
+                            <constraint firstItem="qh6-um-3bX" firstAttribute="top" relation="lessThanOrEqual" secondItem="fII-3A-Vae" secondAttribute="top" constant="259" id="Y4S-Xj-nZn"/>
+                            <constraint firstItem="fII-3A-Vae" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="qh6-um-3bX" secondAttribute="bottom" constant="317.5" id="tgo-nm-Tuc"/>
+                            <constraint firstItem="qh6-um-3bX" firstAttribute="leading" secondItem="fII-3A-Vae" secondAttribute="leading" constant="16" id="wl5-Tn-yCt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fII-3A-Vae"/>
                     </view>
+                    <connections>
+                        <outlet property="informationLabel" destination="qh6-um-3bX" id="hwM-DK-UfH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ves-6I-hUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671" y="18"/>
+            <point key="canvasLocation" x="1669.5999999999999" y="17.541229385307346"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7UV-uG-L4A">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pyj-mq-1GR" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pG7-kV-98R">
+                    <navigationBar key="navigationBar" alpha="0.0" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="pG7-kV-98R">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.92798680069999995" green="0.21789446470000001" blue="0.19998386500000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
