@@ -19,14 +19,14 @@ class LoginVC: UIViewController {
     
     // MARK: - ... @IBAction
 
-    @IBAction func loginButton() {
-        
+    @IBAction func loginButton(_ sender: UIButton) {
     }
-    @IBAction func forgotUserNameButton() {
+    
+    @IBAction func forgotUserNameButton(_ sender: UIButton) {
         
     }
     
-    @IBAction func forgotPasswordButton() {
+    @IBAction func forgotPasswordButton(_ sender: UIButton) {
         
     }
 }
